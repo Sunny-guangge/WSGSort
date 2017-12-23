@@ -15,6 +15,7 @@
 		A363C66E1FEE2E7000499104 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A363C66D1FEE2E7000499104 /* main.m */; };
 		A363C6781FEE2E7000499104 /* WSGSortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A363C6771FEE2E7000499104 /* WSGSortTests.m */; };
 		A363C6831FEE2E7000499104 /* WSGSortUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A363C6821FEE2E7000499104 /* WSGSortUITests.m */; };
+		A363C6921FEE2EF500499104 /* WSGSort.m in Sources */ = {isa = PBXBuildFile; fileRef = A363C6911FEE2EF500499104 /* WSGSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A363C67E1FEE2E7000499104 /* WSGSortUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSGSortUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A363C6821FEE2E7000499104 /* WSGSortUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSGSortUITests.m; sourceTree = "<group>"; };
 		A363C6841FEE2E7000499104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A363C6901FEE2EF500499104 /* WSGSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSGSort.h; sourceTree = "<group>"; };
+		A363C6911FEE2EF500499104 /* WSGSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSGSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				A363C65F1FEE2E6F00499104 /* AppDelegate.m */,
 				A363C6611FEE2E6F00499104 /* ViewController.h */,
 				A363C6621FEE2E6F00499104 /* ViewController.m */,
+				A363C6901FEE2EF500499104 /* WSGSort.h */,
+				A363C6911FEE2EF500499104 /* WSGSort.m */,
 				A363C6641FEE2E7000499104 /* Main.storyboard */,
 				A363C6671FEE2E7000499104 /* Assets.xcassets */,
 				A363C6691FEE2E7000499104 /* LaunchScreen.storyboard */,
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A363C6631FEE2E6F00499104 /* ViewController.m in Sources */,
+				A363C6921FEE2EF500499104 /* WSGSort.m in Sources */,
 				A363C66E1FEE2E7000499104 /* main.m in Sources */,
 				A363C6601FEE2E6F00499104 /* AppDelegate.m in Sources */,
 			);
